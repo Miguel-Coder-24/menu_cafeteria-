@@ -76,7 +76,14 @@ st.title("☕ Menú de Cafe & Cacao")
 # Mostrar categorías
 for categoria, productos in menu.items():
     with st.expander(categoria, expanded=False):
+        # Encabezado de columnas
+        col1, col2 = st.columns([3, 1])
+        col1.markdown("**Producto**")
+        col2.markdown("**Precio**")
+        
+        # Productos con columnas
         for producto, precio in productos:
-            st.write(f"• **{producto}** — ${precio:,.0f}")
-
+            col1, col2 = st.columns([3, 1])
+            col1.write(producto)
+            col2.write(f"${precio:,.0f}")
 st.success("¡Gracias por visitarnos! 🥰")
