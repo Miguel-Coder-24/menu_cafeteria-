@@ -39,7 +39,7 @@ menu = {
         ("Pancakes jamón y queso", 5000),
         ("Alfajores con nibs de cacao", 5000),
         ("Almojábana", 3000),
-        ("Empanadas (jamón y queso, pollo, carne, hawaianas", 3000),
+        ("Empanadas (jamón y queso, pollo, carne, hawaianas)", 3000),
         ("Maní garrapiñado", 3000),
         ("Caramelos artesanales", 3000),
         ("Mini galletas con nibs de cacao", 3000),
