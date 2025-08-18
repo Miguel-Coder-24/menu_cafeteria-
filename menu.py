@@ -74,7 +74,7 @@ st.markdown("Escanea el QR o navega en el menú para ver nuestros productos:")
 # Mostrar categorías
 for categoria, productos in menu.items():
     with st.expander(categoria, expanded=False):
-        for producto, precio in productos.items():
+        for producto, precio in productos:
             st.write(f"• **{producto}** — ${precio:,.0f}")
 
 st.success("¡Gracias por visitarnos! 🥰")
