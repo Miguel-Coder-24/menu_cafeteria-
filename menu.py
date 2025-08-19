@@ -74,12 +74,16 @@ st.set_page_config(page_title="Menú de Cafe & Cacao", page_icon="☕", layout="
 
 st.title("☕ Menú de Cafe & Cacao")
 
-# Mostrar categorías
+# Mostrar categorías con tabla HTML personalizada
 for categoria, productos in menu.items():
-    with st.expander(categoria, expanded=False):
-        df = pd.DataFrame(productos, columns=["Producto", "Precio"])
-        #Formatear precio
-        df["Precio"] = df["Precio"].apply(lambda x: f"${x:,}")
-        st.table(df)
+    with st.expander(categoria, expanded=False): 
+        # Crear tabla HTML
+        tabla_html = "<table style='width:100%; border-collapse:collapse;'>"
+        tabla_html += "<thead><tr><th style='text-align:left;'>Producto</th><th style='text-align:right;'>Precio</th></tr></thead><tbody>"
+        for nombre, precio in productos:
+            precio_formateado = f"${precio:,}"
+            tabla_html += f"<tr><td style='word-break:break-word;'>{nombre}</td><td style='text-align:right;'>{precio_formateado}</td></tr>"
+        tabla_html += "</tbody></table>"
+        st.markdown(tabla_html, unsafe_allow_html=True)
         
 st.success("¡Gracias por visitarnos! 🥰")
