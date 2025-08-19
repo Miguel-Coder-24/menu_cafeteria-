@@ -79,7 +79,7 @@ for categoria, productos in menu.items():
     with st.expander(categoria, expanded=False):
         df = pd.DataFrame(productos, columns=["Producto", "Precio"])
         #Formatear precio
-        df["Precio"] = df["Precio"].apply(lambda x: f"${x:,.0f}")
+        df["Precio"] = df["Precio"].apply(lambda x: f"${x:,}")
         st.table(df)
         
 st.success("¡Gracias por visitarnos! 🥰")
