@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 # =============================
 # Datos del menú
@@ -76,14 +77,9 @@ st.title("☕ Menú de Cafe & Cacao")
 # Mostrar categorías
 for categoria, productos in menu.items():
     with st.expander(categoria, expanded=False):
-        # Encabezado de columnas
-        col1, col2 = st.columns([3, 1])
-        col1.markdown("**Producto**")
-        col2.markdown("**Precio**")
+        df = pd.DataFrame(productos, columns=["Producto", "Precio"])
+        #Formatear precio
+        df["Precio"] = df["Precio"].apply(lambda x: f"${x:,.0f}")
+        st.table(df)
         
-        # Productos con columnas
-        for producto, precio in productos:
-            col1, col2 = st.columns([3, 1])
-            col1.write(producto)
-            col2.write(f"${precio:,.0f}")
 st.success("¡Gracias por visitarnos! 🥰")
