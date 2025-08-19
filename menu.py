@@ -39,16 +39,16 @@ menu = {
         ("Sándwiches jamón y queso", 5000),
         ("Pancakes jamón y queso", 5000),
         ("Alfajores con nibs de cacao", 5000),
+        ("Vaso minimuffins", 5000),
         ("Almojábanas de queso", 3000),
         ("Empanadas (jamón y queso, pollo, carne, hawaianas)", 3000),
+        ("Muffins de ahuyama y cacao", 3000),
         ("Maní garrapiñado", 3000),
         ("Caramelos artesanales de cacao", 3000),
         ("Mini galletas con nibs de cacao", 3000),
         ("Galletas (café, ciruela, surtidas)", 2000),
         ("Muffins (café, ciruela)", 2000),
         ("Dedos de queso", 1500),
-        ("Muffins (ahuyama, cacao)", 3000),
-        ("Vaso minimuffins", 5000),
     ],
 
     "Café y Cacao en grano": [
