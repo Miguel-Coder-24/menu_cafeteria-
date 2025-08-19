@@ -26,6 +26,11 @@ menu = {
     ],
 
     "Helados artesanales": [
+        ("Helado con frutos rojos 3 bolas", 17000),
+        ("Helado con frutos tropicales 2 bolas", 15000),
+        ("Fresas con crema y 1 bola de helado", 12000),
+        ("Banana split", 12000),
+        ("Helado con waffle", 10000),
         ("Brownie con helado", 10000),
         ("Helado 2 bolas cono", 7000),
         ("Helado 1 bola cono", 4000),
