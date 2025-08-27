@@ -5,7 +5,7 @@ import pandas as pd
 # Datos del menú
 # =============================
 menu = {
-    "Bebidas calientes☕": [      
+    "Bebidas calientes ☕": [      
         ("Mocachino", 7000),
         ("Chocolate", 6000),
         ("Capuchino", 6000),
