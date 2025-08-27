@@ -112,3 +112,18 @@ for categoria, productos in menu.items():
         st.markdown(tabla_html, unsafe_allow_html=True)
         
 st.success("¡Gracias por visitarnos! 🥰")
+st.markdown(
+    """
+    <hr>
+    <div style='text-align:center; margin-top:20px;'>
+        <p style='font-size:20px; color:#6a1b9a;'>
+            ¡Gracias por visitarnos! 🥰
+        </p>
+        <p style='font-size:14px; color:gray;'>
+            Café & Cacao • Hecho con ❤️ en Colombia
+        </p>
+    </div>
+    """, 
+    unsafe_allow_html=True
+)
+
