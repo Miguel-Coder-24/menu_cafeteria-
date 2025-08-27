@@ -71,6 +71,11 @@ menu = {
         ("Chocolate mini bola", 5000),
         ("Nibs de cacao naturales", 8000),
         ("Nibs de cacao caramelizados con panela", 8000),
+    ],
+
+    "Vinos": [
+        ("Café, ciruela, fresa, flor de jamaica, zanahoria, tamarindo, corozo, mango, piña, miel con jengibre, gracellas, torombolo, piña, maracuyá  ", 000),
+
     ]
 }
 
