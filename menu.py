@@ -1,6 +1,4 @@
 import streamlit as st
-import pandas as pd
-
 # =============================
 # Datos del menú
 # =============================
