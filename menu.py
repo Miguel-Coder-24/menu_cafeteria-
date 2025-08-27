@@ -95,9 +95,9 @@ menu = {
 # =============================
 # Interfaz con Streamlit
 # =============================
-st.set_page_config(page_title="Menú de Cafe & Cacao", page_icon="☕🍫", layout="wide")
+st.set_page_config(page_title="Menú de Cafe & Cacao", page_icon="🍫", layout="wide")
 
-st.title(" Menú de Cafe ☕ & Cacao🍫")
+st.title(" Menú de Cafe & Cacao ☕")
 
 # Mostrar categorías con tabla HTML personalizada
 for categoria, productos in menu.items():
