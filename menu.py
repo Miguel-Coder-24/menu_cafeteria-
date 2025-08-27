@@ -5,7 +5,7 @@ import pandas as pd
 # Datos del menú
 # =============================
 menu = {
-    "Bebidas calientes": [      
+    "Bebidas calientes☕": [      
         ("Mocachino", 7000),
         ("Chocolate", 6000),
         ("Capuchino", 6000),
@@ -16,7 +16,7 @@ menu = {
         ("Aromáticas", 2000),
     ],
 
-    "Bebidas frías": [
+    "Bebidas frías ❄️": [
         ("Malteada", 12000),
         ("Nevados", 12000),
         ("Yogur litro", 12000),
@@ -25,7 +25,7 @@ menu = {
         ("Yogur personal", 5000),
     ],
 
-    "Helados artesanales": [
+    "Helados artesanales 🍨": [
         ("Helado con frutos rojos 3 bolas", 17000),
         ("Helado con frutos tropicales 2 bolas", 15000),
         ("Fresas con crema y 1 bola de helado", 12000),
@@ -38,7 +38,7 @@ menu = {
         ("Helado artesanal", 3000),
     ],
 
-    "Comidas y repostería": [
+    "Comidas y repostería 🎂": [
         ("Brownie de chocolate", 5000),
         ("Pudínes (café, ciruela)", 5000),
         ("Sándwiches jamón y queso", 5000),
@@ -57,7 +57,7 @@ menu = {
         ("Dedos de queso", 1500),
     ],
 
-    "Café y Cacao en grano": [
+    "Café y Cacao en grano 🫘": [
         ("Café bolsa 500g", 35000),
         ("Café bolsa 250g", 18000),
         ("Café bolsa 125g", 10000),
@@ -73,8 +73,20 @@ menu = {
         ("Nibs de cacao caramelizados con panela", 8000),
     ],
 
-    "Vinos": [
-        ("Café, ciruela, fresa, flor de jamaica, zanahoria, tamarindo, corozo, mango, piña, miel con jengibre, gracellas, torombolo, piña, maracuyá  ", 000),
+    "Vinos 🍷": [
+        ("Café", 0),
+        ("Ciruela", 0),
+        ("Fresa", 0),
+        ("Flor de jamaica", 0),
+        ("Zanahoria", 0),
+        ("Tamarindo", 0),
+        ("Corozo", 0),
+        ("Mango", 0),
+        ("Piña", 0),
+        ("Miel con jengibre", 0),
+        ("Gracella", 0),
+        ("Torombolo", 0),
+        ("Maracuyá", 0),
 
     ]
 }
