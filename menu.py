@@ -111,12 +111,12 @@ for categoria, productos in menu.items():
         tabla_html += "</tbody></table>"
         st.markdown(tabla_html, unsafe_allow_html=True)
         
-st.success("¡Gracias por visitarnos! 🥰")
+#st.success("¡Gracias por visitarnos! 🥰")
 st.markdown(
     """
     <hr>
     <div style='text-align:center; margin-top:20px;'>
-        <p style='font-size:20px; color:#6a1b9a;'>
+        <p style='font-size:20px; color:#fbc02d;'>
             ¡Gracias por visitarnos! 🥰
         </p>
         <p style='font-size:14px; color:gray;'>
