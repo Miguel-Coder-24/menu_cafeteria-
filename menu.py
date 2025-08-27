@@ -57,7 +57,7 @@ menu = {
         ("Dedos de queso", 1500),
     ],
 
-    "Café ☕ y Cacao en grano 🍫": [
+    "Café y Cacao en grano ☕ 🍫": [
         ("Café bolsa 500g", 35000),
         ("Café bolsa 250g", 18000),
         ("Café bolsa 125g", 10000),
@@ -95,9 +95,9 @@ menu = {
 # =============================
 # Interfaz con Streamlit
 # =============================
-st.set_page_config(page_title="Menú de Cafe & Cacao", page_icon="🍫", layout="wide")
+st.set_page_config(page_title="Menú de Café & Cacao", page_icon="☕", layout="wide")
 
-st.title(" Menú de Cafe & Cacao ☕")
+st.title(" Menú de Café & Cacao ☕")
 
 # Mostrar categorías con tabla HTML personalizada
 for categoria, productos in menu.items():
